@@ -179,7 +179,12 @@ footer .copyright{
     grid-column: 4/7;
     font-size: 0.8em;
 }
+/* Img slide show */
 
+
+
+
+/* end slide show */
 
 /* small tablets size */
 @media screen and (min-width: 620px){
