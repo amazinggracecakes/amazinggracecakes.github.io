@@ -101,7 +101,7 @@ h4{
     grid-column: 6/9;
 }
 .welcome-img{
-    width: 200%;
+    width: 150%;
 }
 .welcome-text a{
     margin: 20px 0;
@@ -153,6 +153,7 @@ h4{
 #contact{
     padding: 30px 20px;
     background: rgba(0, 0, 0, 0.2);
+    /* background-image: url("images/CakeImage1.svg"); */
 }
 #contact h3, #contact p{
     text-align: center;
@@ -181,9 +182,44 @@ footer .copyright{
 }
 /* Img slide show */
 
-
-
-
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 100%;
+    height: calc(50% - 10vh);
+    object-fit: cover; 
+    transition: .5s; 
+  }
+  
+  .box > span {
+    font-size: 3.5vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+   
 /* end slide show */
 
 /* small tablets size */
