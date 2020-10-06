@@ -1,6 +1,6 @@
 /* Varabiles */
 :root{
-    --primary:#ffffff;
+    --primary: hsla(48, 78%, 82%, 1);
     --secondary: #FB5607;
     --alternet: #d30074;
 }
@@ -57,6 +57,9 @@ h1,h2,h3,h4{
 }
 p,a,li{
     color: #524239;
+}
+b{
+    color: var(--secondary);
 }
 h1,h3{
     font-size: 1.2em;
