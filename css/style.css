@@ -31,6 +31,7 @@ body{
     text-transform: uppercase;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
     display: inline-block;
+    text-align: center;
 }
 .button:hover{
     color: #222;
@@ -55,16 +56,16 @@ b{
     color: var(--secondary);
 }
 h1,h3{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 h2{
-    font-size: 1.6em;   
+    font-size: 1.1em;   
 }
 h4{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .leading{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /* mobile styles */
