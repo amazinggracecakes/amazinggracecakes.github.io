@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing Grace Cakes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
     <nav class="site-nav grid">
@@ -16,13 +18,13 @@
     </nav> 
     <section id="welcome" class="grid">
         <div class="welcome-text">
-            <h2>Amazing desserts <br/> &  Amazing people. </h2>
+            <h2>Amazing desserts <br/> &  Amazing people </h2>
             <p class="leading">
-                 That's what <b>AMAZING GRACE CAKES</b> is all about. </p>
+                 That is what <b>AMAZING GRACE CAKES</b> is all about. </p>
             <a href="#gallary" class="button"> View my work</a>
         </div>
         <div class="welcome-img">
-            <img src="images/AmazingLogo.png" alt="Image of a cake">
+            <img src="images/New Logo.png" alt="Amazing Grace Cakes Logo">
             <!-- Transparent png otherwise it wont show -->
         </div>
         
@@ -47,44 +49,29 @@
     </section>
     <section id="gallary">
         <h3>Some of my work</h3>
-        <div class="container">
-            <div class="box">
-                <img src="Images/Cake1.jpg" alt="Cake1">
-              <span>1</span>
-            </div>
-            <div class="box">
-                <img src="Images/Cake2.jpg" alt="Cake2">
-              <span>image</span>
-            </div>
-            <div class="box">
-                <img src="Images/Cake3.jpg" alt="Cake3">
-              <span>image</span>
-            </div>           
-          </div>
-          <div class="container">
-            <div class="box">
-                <img src="Images/Cake4.jpg" alt="Cake4">
-              <span>image</span>
-            </div>
-            <div class="box">
-                <img src="Images/Cake5.jpg" alt="Cake5">
-              <span>image</span>
-            </div>
-            <div class="box">
-                <img src="Images/Cake6.jpg" alt="Cake6">
-              <span>image</span>
-            </div>           
-          </div>
+        <div class="gallery">
+            <a href="images/Cake1.jpg" data-lightbox="mygallery"><img src="images/Cake1Thumb.jpg"></a>
+            <a href="images/Cake2.jpg" data-lightbox="mygallery"><img src="images/Cake2Thumb.jpg"></a>
+            <a href="images/Cake3.jpg" data-lightbox="mygallery"><img src="images/Cake3Thumb.jpg"></a>
+            <a href="images/Cake4.jpg" data-lightbox="mygallery"><img src="images/Cake4Thumb.jpg"></a>
+            <a href="images/Cake5.jpg" data-lightbox="mygallery"><img src="images/Cake5Thumb.jpg"></a>
+            <a href="images/Cake6.jpg" data-lightbox="mygallery"><img src="images/Cake6Thumb.jpg"></a>
+            <a href="images/Cake7.jpg" data-lightbox="mygallery"><img src="images/Cake7Thumb.jpg"></a>
+            <a href="images/Cake8.jpg" data-lightbox="mygallery"><img src="images/Cake8Thumb.jpg"></a>
+            <a href="images/Cake9.jpg" data-lightbox="mygallery"><img src="images/Cake9Thumb.jpg"></a>
+            <a href="images/Cake10.jpg" data-lightbox="mygallery"><img src="images/Cake10Thumb.jpg"></a>
+        </div>
     </section>
 
     <section id="contact"><h3>Get in touch</h3>
     <p class="leading">Click on the image below to enquire on your very own customized cake.</p>
     </br>
-    <p>
-        <a href="https://wa.me/27612769587?text=Hello%20I'm%20interested%20in%20a%20cake">
-            <img alt="Whatsapp link" src="Images/WhatsappPic.png" width="80" height="80">
-         </a>
-    </p>
+            <div class="cont">
+                <p>
+                <a href="https://wa.me/27612769587?text=Hello%20I'm%20interested%20in%20a%20cake">
+                     <img alt="Whatsapp link" src="Images/WhatsappPic.png" width="80" height="80">
+                </a>
+            </p></div>
     </section>
 
     <footer>
