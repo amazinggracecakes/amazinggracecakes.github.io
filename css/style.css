@@ -129,7 +129,7 @@ h4{
  .gallery img{
      transition: 1s;
      padding: 15px;
-     width: 200px;
+     width: 150px;
      border-radius: 35px;
  }
  .gallery img:hover{
@@ -146,7 +146,7 @@ h4{
     text-align: center;
 }
 #gallary img{
-    height: 250px;
+    height: 200px;
     margin: auto;
 }
 #contact{
